@@ -6,6 +6,6 @@ wait_time = 5
 
 if __name__ == "__main__":
     crawler = Crawler(baseURL=BaseURL, wait_time=wait_time)
-    crawler.StartCrawling()
+    crawler.CustomCrawling()
 
     pass
